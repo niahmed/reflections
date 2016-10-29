@@ -10,13 +10,23 @@ It allows you to add and track parts of the initial repository that might need t
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+You can use git diff --staged to see all of the changes that are in the staging area before committing them. If there is more than one logical commit, you can remove them from the staging area and proceed to commit them one at a time.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+When creating a different version of an app, such as a different language or easier mode of a game. Branches allow you to continue having a working master version of your app while you can work on your branched versions.
+
 How do the diagrams help you visualize the branch structure?
+
+It helps you see which commits are connected to each other.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+Combines new changes to from two different branches. We represent it in a diagram so it is easy to follow.
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+Git's automatic merging checks what lines are the same and what lines have been introduced. It alos shows and lines that may be in conflict so you can resolve them manually.
