@@ -25,4 +25,4 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    I would make changes in a separate branch when collaborating on a project. This would allow people to use pull requests to avoid making changes to the master branch without someone knowing a change has been made.
